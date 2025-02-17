@@ -53,5 +53,5 @@ for i in range(1,column_count): #to iterate through all the columns
     Dict_final[DATe]=Dict_col
 #print(Dict_final)
 with open('Data.json','w') as f:
-    json.dump(Dict_final, f, indent=4, sort_keys=False) #pretty json we keep indent 4, it indents itself on each new List or dictionary elemnent
+    json.dump(Dict_final, f, indent=4, sort_keys=False) #pretty json we keep indent 4, it indents itself on each new List or dictionary element
     print("JSON FILE CREATED SUCCESSFULLY")
